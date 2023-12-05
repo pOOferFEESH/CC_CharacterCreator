@@ -1,0 +1,24 @@
+html
+{
+  margin: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%
+}
+canvas 
+{
+  display: block;
+}
+
+.user-interface
+{
+  margin: 100px;
+  border: 10px solid pink;
+  padding-top: 40px;
+}
+
+#sketch-holder
+{
+  border: 10px solid blue;
+  
+}
