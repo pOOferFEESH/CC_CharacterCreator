@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Silkscreen&display=swap');
+
 html
 {
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5db0e0d3-df69-438e-a342-ab4b46777ae1/destt6l-1c97b5ff-2fbf-44ed-9b92-a10c7f4a2b1b.png/v1/fill/w_1280,h_720,q_80,strp/windows_xp_desktop_by_ampherenot_destt6l-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNWRiMGUwZDMtZGY2OS00MzhlLWEzNDItYWI0YjQ2Nzc3YWUxXC9kZXN0dDZsLTFjOTdiNWZmLTJmYmYtNDRlZC05YjkyLWExMGM3ZjRhMmIxYi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.biqgf_vf5APK39gpTPozLswxpl6Cdy-H6rt_OHOgbA4);
+  background-repeat: no-repeat;
   margin: 0;
   padding-left: 100px;
   padding-right: 100px;
-  height: 100%
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 canvas 
 {
@@ -12,13 +18,111 @@ canvas
 
 .user-interface
 {
+  background-image: url(https://i.pinimg.com/originals/47/2b/88/472b8826e4788e3231378b16974f9821.jpg);
   margin: 100px;
   border: 10px solid pink;
   padding-top: 40px;
+  display: grid;
+  grid-template-rows: 100% 100%;
+  grid-template-columns: 57.5% 42.5%;
+}
+
+button
+{
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  font-size: 20px;
+  font-family: 'Silkscreen', sans-serif;
+  background-color: lightblue;
+  color: white;
+  padding-bottom: 10px;
+}
+
+button:hover
+{
+  background-color: white;
+  color: black;
+  
+}
+
+p
+{
+  font-family: 'Concert One', sans-serif;
+  font-size: 30px;
+}
+
+#controls-holder
+{
+  border: 10px solid lightblue;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
 #sketch-holder
 {
-  border: 10px solid blue;
-  
+  border: 10px solid skyblue;
+}
+
+#skin-holder
+{
+  border: 10px solid whitesmoke;
+  text-align: center;
+}
+
+#shirt-holder
+{
+  border: 10px solid white;
+  text-align: center;
+}
+
+#hair-holder
+{
+  border: 10px solid white;
+  text-align: center;
+}
+
+#pants-holder
+{
+  border: 10px solid whitesmoke;
+  text-align: center;
+}
+
+input[type="range"] 
+{
+ -webkit-appearance: none;
+}
+
+input[type="range"]:focus 
+{
+ outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track 
+{
+ background: violet;
+ height: 5px;
+}
+
+input[type="range"]::-moz-range-track 
+{
+ background: magenta;
+ height: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+ height: 15px;
+ width: 15px;
+ background: pink;
+ margin-top: -5px;
+ border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+ height: 15px;
+ width: 15px;
+ background: pink;
+ margin-top: -5px;
+ border-radius: 50%;
 }
